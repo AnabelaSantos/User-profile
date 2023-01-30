@@ -30,8 +30,18 @@
  </body>
 
  <footer>
+    <h1>Contact Me</h1>
+    <p>If you need further information, please contact me.</p>
+    <form action="Thank you for your message. I'll reply ASAP.php" method="post" id="user-form"> 
+        <!-- it will give an 405 (not allowed) error because there's no API set for this page. -->
+        Name: <input type="text" name="name">
+        Email: <input type="email" name="email">
+        Message: <br>
+        <textarea textarea rows="5" cols="50" name="message" form action="user-form">
+Please enter your message here...</textarea>
+       <input type="submit" value="Submit">
+    </form>
 
-
- </footer>
+  </footer>
  
  </html>
