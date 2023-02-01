@@ -1,6 +1,6 @@
 /* Body values recommended by Harvad University, digital accessibility https://accessibility.huit.harvard.edu/ */
 * {
-  /* padding: 1.6em; */
+
   font-family: comic, Arial, Helvetica, sans-serif;
   color: #000000;
   line-height: 1.5;
@@ -10,51 +10,81 @@
 
 body {
   background-color: #dee6fc;
-  max-width: 700px;
+  max-width: 95vw;
   padding: 1.6em;
   font-size: 120%;
 }
 
 img#back-image {
-  width: 90vw;
+  width: 95vw;
   height: auto;
 }
 
-/* section .container-in-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-img#front-left-image {
-  width: 45vw;
-  height: auto;
-  margin-top: -5rem;
-}
+
 section#name-and-title {
-  background: 0.5rem solid black;
   background-color: #d1d8ff;
-  width: 45vw;
-  height: 45vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: flex-end;
+  position: absolute;
+  right: 17vw;
+  width: 30vw;
+  height: 29vh;
+  border-radius: 3rem;
+  margin-top: -35vh;
   padding-left: 1.6em;
+  /* display: flex;
+  flex-direction: column;
+  align-items: stretch; */
+} 
+
+#name-and-title>h1 {
+  margin-bottom: 0.5px;
+  /* font-size: 25%; */
+  font-size: 3vw;
+  /* display: flex;
+  align-items: flex-start; */
+} 
+
+#name-and-title>h3 {
+  margin-top: 0.5px;
+  /* font-size: 15%; */
+  font-size: 2vw;
+  /* display: flex;
+  align-items: flex-end; */
 }
-div {
+
+
+menu {
+  font-size: 155%;
+  font-weight: bolder;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-h1 {
-  font-size: 195%;
-}
-h5 {
-  font-size: 175%;
-  margin-top: 0rem;
-}
-main {
-}
+a:link { text-decoration: none; }
+a:visited { text-decoration: #957DAD; }
+a:hover { text-decoration: #957DAD; }
+a:active { text-decoration: #957DAD; }
+
+
+ /* @media queries */
+
+ @media only screen and (max-width: 500px ) {
+  
+  body {
+    font-size: 100%;
+  }
+
+  menu {
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+
+
+
+
 /* body {
   max-width: 700px;
   padding: 1.6em;
