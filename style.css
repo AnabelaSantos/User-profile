@@ -1,0 +1,83 @@
+/* Body values recommended by Harvad University, digital accessibility https://accessibility.huit.harvard.edu/ */
+* {
+  /* padding: 1.6em; */
+  font-family: comic, Arial, Helvetica, sans-serif;
+  color: #000000;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+}
+
+body {
+  background-color: #dee6fc;
+  max-width: 700px;
+  padding: 1.6em;
+  font-size: 120%;
+}
+
+img#back-image {
+  width: 90vw;
+  height: auto;
+}
+
+/* section .container-in-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+img#front-left-image {
+  width: 45vw;
+  height: auto;
+  margin-top: -5rem;
+}
+section#name-and-title {
+  background: 0.5rem solid black;
+  background-color: #d1d8ff;
+  width: 45vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  padding-left: 1.6em;
+}
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 195%;
+}
+h5 {
+  font-size: 175%;
+  margin-top: 0rem;
+}
+main {
+}
+/* body {
+  max-width: 700px;
+  padding: 1.6em;
+  font-size: 120%;
+} */
+
+/* p.good {
+  max-width: 40em;
+  font-family: sans-serif;
+  line-height: 1.4;
+  text-align: left;
+}
+
+Solution 1: Always display the image size that looks best in the widest layout and then resize it for the other layouts by CSS. If your image is contained in the grid you can easily achieve this with some code similar to this:
+.image-container img {
+  width: 100%;
+}
+
+Solution 2: Display the correct image size on each layout. This can be done with the help of Client-side adaptive image module.
+
+Layout adaptability
+Here is where the Omega theme comes in very handy. Omega use the 960 CSS framework to control the layout of your site and adjusts the grid size to 3 different layouts:
+
+Narrow: For screen with a resolution between 740px to 800px wide.
+Normal: For screen with a resolution between 980px to 1024px wide.
+Wide: For screen with a min-width resolution of 1220px. */
