@@ -3,16 +3,23 @@
 
   font-family: comic, Arial, Helvetica, sans-serif;
   color: #000000;
-  line-height: 1.5;
+  line-height: 1.4;
   letter-spacing: 0.2em;
   word-spacing: 0.5em;
+  text-align: left;
 }
 
 body {
   background-color: #dee6fc;
   max-width: 95vw;
   padding: 1.6em;
-  font-size: 120%;
+
+}
+section.image-container-in-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 img#back-image {
@@ -21,65 +28,79 @@ img#back-image {
 }
 
 
-section#name-and-title {
-  background-color: #d1d8ff;
-  position: absolute;
-  right: 17vw;
-  width: 30vw;
-  height: 29vh;
-  border-radius: 3rem;
-  margin-top: -35vh;
-  padding-left: 1.6em;
-  /* display: flex;
-  flex-direction: column;
-  align-items: stretch; */
-} 
-
-#name-and-title>h1 {
-  margin-bottom: 0.5px;
-  /* font-size: 25%; */
-  font-size: 3vw;
-  /* display: flex;
-  align-items: flex-start; */
-} 
-
-#name-and-title>h3 {
-  margin-top: 0.5px;
-  /* font-size: 15%; */
-  font-size: 2vw;
-  /* display: flex;
-  align-items: flex-end; */
-}
-
-
 menu {
   font-size: 155%;
   font-weight: bolder;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: #957DAD; }
-a:hover { text-decoration: #957DAD; }
-a:active { text-decoration: #957DAD; }
+a:link { text-decoration: none; font-weight: bold; font-size: larger;}
+a:visited { text-decoration: none; font-weight: bold;}
+a:hover { text-decoration: none; font-weight: bold;}
+a:active { text-decoration: none;font-weight: bolder;}
+
+main {
+  font-size: 120%;
+}
+
+h1{
+  font-size: 5vw;
+  text-align: center;
+  
+}
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #dee6fc;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #dee6fc;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #dee6fc;
+  }
+
+  input[type=submit] {
+    font-size: large;
+    width: auto;
+    height: 7vh;
+  }
 
 
  /* @media queries */
 
  @media only screen and (max-width: 500px ) {
   
-  body {
-    font-size: 100%;
+  main>p {
+    font-size: 90%;
   }
+
+#name-and-title {
+  text-align: center;
+}
 
   menu {
     font-size: 110%;
+    margin-left: -1.9rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  } 
+   } 
 
 
 
