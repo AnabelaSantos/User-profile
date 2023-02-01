@@ -82,6 +82,24 @@ h1{
     height: 7vh;
   }
 
+  img#cup-of-coffee {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img,project-description {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
 
  /* @media queries */
 
