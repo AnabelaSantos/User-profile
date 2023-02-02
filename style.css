@@ -82,6 +82,30 @@ h1{
     height: 7vh;
   }
 
+  #forest-image{
+    width: auto;
+    height: 25vh;
+  }
+
+ div, paragraph-separator{
+  display: flex;
+  flex-direction: row-reverse;
+ }
+
+  #beach-image{
+    width: auto;
+    height: 25vh;
+  }
+
+  section.image-container-in-information{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-container-in-information,p{
+    padding-left: 0.5em;
+  }
+
   img#cup-of-coffee {
     width: 50vw;
     height: auto;
@@ -90,6 +114,7 @@ h1{
     margin-right: auto;
   }
 
+
   img,project-description {
     width: 50vw;
     height: auto;
@@ -97,9 +122,37 @@ h1{
     margin-left: auto;
     margin-right: auto;
   }
+project-description,h3 {
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+li>span {
+  line-height: 2.5em;
+  
+}
+
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
 
 
+table {
+  width: 90vw;
+}
 
+th {
+  height: 7vw;
+  
+}
+
+td {
+  height: 7vh;
+  vertical-align: bottom;
+  padding-left: 0.5em;
+  padding-right: 0.9em;
+}
 
  /* @media queries */
 
@@ -120,8 +173,17 @@ h1{
     flex-direction: column;
    } 
 
+   section.image-container-in-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-
+  div, paragraph-separator{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+   }
 
 
 /* body {
