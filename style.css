@@ -1,4 +1,4 @@
-/* Body values recommended by Harvad University, digital accessibility https://accessibility.huit.harvard.edu/ */
+/* Harvad University, digital accessibility https://accessibility.huit.harvard.edu/ */
 * {
 
   font-family: comic, Arial, Helvetica, sans-serif;
@@ -184,31 +184,3 @@ td {
     flex-direction: row-reverse;
     flex-wrap: wrap;
    }
-
-
-/* body {
-  max-width: 700px;
-  padding: 1.6em;
-  font-size: 120%;
-} */
-
-/* p.good {
-  max-width: 40em;
-  font-family: sans-serif;
-  line-height: 1.4;
-  text-align: left;
-}
-
-Solution 1: Always display the image size that looks best in the widest layout and then resize it for the other layouts by CSS. If your image is contained in the grid you can easily achieve this with some code similar to this:
-.image-container img {
-  width: 100%;
-}
-
-Solution 2: Display the correct image size on each layout. This can be done with the help of Client-side adaptive image module.
-
-Layout adaptability
-Here is where the Omega theme comes in very handy. Omega use the 960 CSS framework to control the layout of your site and adjusts the grid size to 3 different layouts:
-
-Narrow: For screen with a resolution between 740px to 800px wide.
-Normal: For screen with a resolution between 980px to 1024px wide.
-Wide: For screen with a min-width resolution of 1220px. */
