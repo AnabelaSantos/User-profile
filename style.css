@@ -151,7 +151,7 @@ figure {
   align-items: center;
 }
 
-project-description > h3 {
+.project-description>h3 {
   font-size: 2.5vw;
   text-align: center;
   margin-top: 5rem;
@@ -215,6 +215,12 @@ td {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+  }
+  
+    .project-description > h3 {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 5rem;
   }
 
   footer > h3 {
